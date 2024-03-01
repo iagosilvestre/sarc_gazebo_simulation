@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-01T16:17:14.995400320Z</date>
+  <millis>1709309834995</millis>
+  <nanos>400320</nanos>
+  <sequence>0</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Started!</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:15.004310072Z</date>
+  <millis>1709309835004</millis>
+  <nanos>310072</nanos>
+  <sequence>1</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Going to Fire Location</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:35.021451892Z</date>
+  <millis>1709309855021</millis>
+  <nanos>451892</nanos>
+  <sequence>2</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:37.046529401Z</date>
+  <millis>1709309857046</millis>
+  <nanos>529401</nanos>
+  <sequence>3</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:39.052322425Z</date>
+  <millis>1709309859052</millis>
+  <nanos>322425</nanos>
+  <sequence>4</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:41.060941409Z</date>
+  <millis>1709309861060</millis>
+  <nanos>941409</nanos>
+  <sequence>5</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:43.073909704Z</date>
+  <millis>1709309863073</millis>
+  <nanos>909704</nanos>
+  <sequence>6</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:45.085612257Z</date>
+  <millis>1709309865085</millis>
+  <nanos>612257</nanos>
+  <sequence>7</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:47.096657285Z</date>
+  <millis>1709309867096</millis>
+  <nanos>657285</nanos>
+  <sequence>8</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:49.106435209Z</date>
+  <millis>1709309869106</millis>
+  <nanos>435209</nanos>
+  <sequence>9</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:51.113817407Z</date>
+  <millis>1709309871113</millis>
+  <nanos>817407</nanos>
+  <sequence>10</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:53.121196680Z</date>
+  <millis>1709309873121</millis>
+  <nanos>196680</nanos>
+  <sequence>11</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:55.128752142Z</date>
+  <millis>1709309875128</millis>
+  <nanos>752142</nanos>
+  <sequence>12</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:57.132910952Z</date>
+  <millis>1709309877132</millis>
+  <nanos>910952</nanos>
+  <sequence>13</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:17:59.139924737Z</date>
+  <millis>1709309879139</millis>
+  <nanos>924737</nanos>
+  <sequence>14</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:01.145631386Z</date>
+  <millis>1709309881145</millis>
+  <nanos>631386</nanos>
+  <sequence>15</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:03.152525510Z</date>
+  <millis>1709309883152</millis>
+  <nanos>525510</nanos>
+  <sequence>16</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:05.160865170Z</date>
+  <millis>1709309885160</millis>
+  <nanos>865170</nanos>
+  <sequence>17</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:07.167434818Z</date>
+  <millis>1709309887167</millis>
+  <nanos>434818</nanos>
+  <sequence>18</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:09.174456927Z</date>
+  <millis>1709309889174</millis>
+  <nanos>456927</nanos>
+  <sequence>19</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:11.181175887Z</date>
+  <millis>1709309891181</millis>
+  <nanos>175887</nanos>
+  <sequence>20</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:13.188251733Z</date>
+  <millis>1709309893188</millis>
+  <nanos>251733</nanos>
+  <sequence>21</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:15.195747504Z</date>
+  <millis>1709309895195</millis>
+  <nanos>747504</nanos>
+  <sequence>22</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:17.202279423Z</date>
+  <millis>1709309897202</millis>
+  <nanos>279423</nanos>
+  <sequence>23</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:19.208393153Z</date>
+  <millis>1709309899208</millis>
+  <nanos>393153</nanos>
+  <sequence>24</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:21.215546548Z</date>
+  <millis>1709309901215</millis>
+  <nanos>546548</nanos>
+  <sequence>25</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:23.222634076Z</date>
+  <millis>1709309903222</millis>
+  <nanos>634076</nanos>
+  <sequence>26</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:25.229880160Z</date>
+  <millis>1709309905229</millis>
+  <nanos>880160</nanos>
+  <sequence>27</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:27.237160305Z</date>
+  <millis>1709309907237</millis>
+  <nanos>160305</nanos>
+  <sequence>28</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:29.244848657Z</date>
+  <millis>1709309909244</millis>
+  <nanos>848657</nanos>
+  <sequence>29</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:31.253464057Z</date>
+  <millis>1709309911253</millis>
+  <nanos>464057</nanos>
+  <sequence>30</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:33.262778918Z</date>
+  <millis>1709309913262</millis>
+  <nanos>778918</nanos>
+  <sequence>31</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:35.269546304Z</date>
+  <millis>1709309915269</millis>
+  <nanos>546304</nanos>
+  <sequence>32</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:37.276499927Z</date>
+  <millis>1709309917276</millis>
+  <nanos>499927</nanos>
+  <sequence>33</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:39.282914145Z</date>
+  <millis>1709309919282</millis>
+  <nanos>914145</nanos>
+  <sequence>34</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:41.289288452Z</date>
+  <millis>1709309921289</millis>
+  <nanos>288452</nanos>
+  <sequence>35</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:43.294593062Z</date>
+  <millis>1709309923294</millis>
+  <nanos>593062</nanos>
+  <sequence>36</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:45.299525514Z</date>
+  <millis>1709309925299</millis>
+  <nanos>525514</nanos>
+  <sequence>37</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:47.304705122Z</date>
+  <millis>1709309927304</millis>
+  <nanos>705122</nanos>
+  <sequence>38</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:49.310011614Z</date>
+  <millis>1709309929310</millis>
+  <nanos>11614</nanos>
+  <sequence>39</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:51.318710922Z</date>
+  <millis>1709309931318</millis>
+  <nanos>710922</nanos>
+  <sequence>40</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:53.327604068Z</date>
+  <millis>1709309933327</millis>
+  <nanos>604068</nanos>
+  <sequence>41</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:55.334447430Z</date>
+  <millis>1709309935334</millis>
+  <nanos>447430</nanos>
+  <sequence>42</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:57.340420214Z</date>
+  <millis>1709309937340</millis>
+  <nanos>420214</nanos>
+  <sequence>43</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:18:59.348580483Z</date>
+  <millis>1709309939348</millis>
+  <nanos>580483</nanos>
+  <sequence>44</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:01.358619371Z</date>
+  <millis>1709309941358</millis>
+  <nanos>619371</nanos>
+  <sequence>45</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:03.368334971Z</date>
+  <millis>1709309943368</millis>
+  <nanos>334971</nanos>
+  <sequence>46</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:05.374663798Z</date>
+  <millis>1709309945374</millis>
+  <nanos>663798</nanos>
+  <sequence>47</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:07.382573542Z</date>
+  <millis>1709309947382</millis>
+  <nanos>573542</nanos>
+  <sequence>48</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:09.388611241Z</date>
+  <millis>1709309949388</millis>
+  <nanos>611241</nanos>
+  <sequence>49</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:11.392501944Z</date>
+  <millis>1709309951392</millis>
+  <nanos>501944</nanos>
+  <sequence>50</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:13.396988306Z</date>
+  <millis>1709309953396</millis>
+  <nanos>988306</nanos>
+  <sequence>51</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:15.402942747Z</date>
+  <millis>1709309955402</millis>
+  <nanos>942747</nanos>
+  <sequence>52</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:17.409530672Z</date>
+  <millis>1709309957409</millis>
+  <nanos>530672</nanos>
+  <sequence>53</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:19.415668260Z</date>
+  <millis>1709309959415</millis>
+  <nanos>668260</nanos>
+  <sequence>54</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:21.421955341Z</date>
+  <millis>1709309961421</millis>
+  <nanos>955341</nanos>
+  <sequence>55</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:23.427069319Z</date>
+  <millis>1709309963427</millis>
+  <nanos>69319</nanos>
+  <sequence>56</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:25.433401101Z</date>
+  <millis>1709309965433</millis>
+  <nanos>401101</nanos>
+  <sequence>57</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:27.441296708Z</date>
+  <millis>1709309967441</millis>
+  <nanos>296708</nanos>
+  <sequence>58</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:29.447811519Z</date>
+  <millis>1709309969447</millis>
+  <nanos>811519</nanos>
+  <sequence>59</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:31.454046790Z</date>
+  <millis>1709309971454</millis>
+  <nanos>46790</nanos>
+  <sequence>60</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:33.459992056Z</date>
+  <millis>1709309973459</millis>
+  <nanos>992056</nanos>
+  <sequence>61</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:35.467355127Z</date>
+  <millis>1709309975467</millis>
+  <nanos>355127</nanos>
+  <sequence>62</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:37.473552731Z</date>
+  <millis>1709309977473</millis>
+  <nanos>552731</nanos>
+  <sequence>63</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:39.479871141Z</date>
+  <millis>1709309979479</millis>
+  <nanos>871141</nanos>
+  <sequence>64</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-01T16:19:41.486245968Z</date>
+  <millis>1709309981486</millis>
+  <nanos>245968</nanos>
+  <sequence>65</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>56</thread>
+  <message>Fighting Fire</message>
+</record>
+</log>
