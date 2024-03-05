@@ -12,4 +12,7 @@ network:
 
   robot_names: [
     uav1,
+    uav2,
+    uav3,
+    uav4,
   ]

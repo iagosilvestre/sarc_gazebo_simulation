@@ -15,5 +15,22 @@ MAS teste_embedded_mas {
     infrastructure: Local
 
 
-    agents: uav1 agentClass embedded.mas.bridges.jacamo.CyberPhysicalAgent agentArchClass embedded.mas.bridges.jacamo.DefaultEmbeddedAgArch;
+    agents: 
+    	uav1 uav1.asl [beliefs="my_number(1) , my_frame_id(\"uav1/gps_origin\")"]
+    	agentClass embedded.mas.bridges.jacamo.CyberPhysicalAgent 
+    	agentArchClass embedded.mas.bridges.jacamo.DefaultEmbeddedAgArch;
+    	
+    	/*uav2 uav.asl [beliefs="my_number(2) , my_frame_id(\"uav2/gps_origin\")"]
+    	agentClass embedded.mas.bridges.jacamo.CyberPhysicalAgent 
+    	agentArchClass embedded.mas.bridges.jacamo.DefaultEmbeddedAgArch;
+    	
+    	uav3 uav.asl [beliefs="my_number(3) , my_frame_id(\"uav3/gps_origin\")"]
+    	agentClass embedded.mas.bridges.jacamo.CyberPhysicalAgent 
+    	agentArchClass embedded.mas.bridges.jacamo.DefaultEmbeddedAgArch;
+    	
+    	uav4 uav.asl [beliefs="my_number(4) , my_frame_id(\"uav4/gps_origin\")"]
+    	agentClass embedded.mas.bridges.jacamo.CyberPhysicalAgent 
+    	agentArchClass embedded.mas.bridges.jacamo.DefaultEmbeddedAgArch;*/
+    	
+    aslSourcePath: "src/agt";
 }
