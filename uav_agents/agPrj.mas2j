@@ -31,4 +31,6 @@ MAS teste_embedded_mas {
     	uav4 uav.asl [beliefs="my_number(4) , my_frame_id(\"uav4/gps_origin\")"]
     	agentClass embedded.mas.bridges.jacamo.CyberPhysicalAgent 
     	agentArchClass embedded.mas.bridges.jacamo.DefaultEmbeddedAgArch;*/
+    	
+    aslSourcePath: "src/agt";
 }
