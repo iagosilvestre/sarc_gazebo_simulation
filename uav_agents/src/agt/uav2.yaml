@@ -11,7 +11,7 @@
         topicType: std_msgs/Int8 #type do rospy
       - topicName: unblock #topico do rospy
         topicType: std_msgs/Int8 #type do rospy
-      - topicName: uav1/ground_truth
+      - topicName: uav2/ground_truth
         topicType: nav_msgs/Odometry
       - topicName: landing_x
         topicType: std_msgs/Float64

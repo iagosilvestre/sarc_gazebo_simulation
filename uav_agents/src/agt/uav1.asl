@@ -6,9 +6,9 @@ camera_range(5).
 std_altitude(20.0).
 std_heading(0.0).
 land_radius(10.0).
-my_number(1).
+//my_number(1).
 currentwaypoint(0).
-my_frame_id("uav1/gps_baro_origin").
+//my_frame_id("uav1/gps_baro_origin").
 temp_limit(70.5).//30.0
 wind_limit(72.5).//12.1
 diff(1).
@@ -17,7 +17,11 @@ fireLoc(24.5, -23.5).
 //pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW))))
 //////////////// Rules
 
-current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & uav1_estimation_manager_gps_baro_odom(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
+current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & my_number(1) & uav1_ground_truth(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
+current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & my_number(2) & uav2_ground_truth(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
+current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & my_number(3) & uav3_ground_truth(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
+current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & my_number(4) & uav4_ground_truth(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
+
 //current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & uav2_odometry_gps_local_odom(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
 //current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & uav3_odometry_gps_local_odom(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
 //current_position(CX, CY, CZ) :- my_frame_id(Frame_id) & uav4_odometry_gps_local_odom(header(seq(Seq),stamp(secs(Secs),nsecs(Nsecs)),frame_id(Frame_id)),child_frame_id(CFI),pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW)))),covariance(CV)),twist(twist(linear(x(LX),y(LY),z((LZ))),angular(x(AX),y((AY)),z((AZ)))),covariance(CV2))).
@@ -68,14 +72,20 @@ my_number_string(S) :- my_number(N)
       //!calculate_trajectory;//trajectory//!calculate_area;//!calculate_waypoints(1, []);// pode ser unido com os outros
       //!hover.
       //!follow_trajectory(0).
-      !goto_position(20.0,-28.0);
+      !where;
+      //!goto_position(20.0,-28.0);
       //!gotoFireLoc;
-      .wait(35000);
+      .wait(3000);
       !fightFire.
 
       //embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","arm",[N,1]);
       //.wait(2000);
       //embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","takeoff",N).
+
++!where
+   :   current_position(CX, CY, CZ)
+   <- .print("I believe I am at CX: ",CX," , CY: ",CY," ,CZ: ",CZ).
+
 
 +!goto_position(X, Y)
    : std_altitude(Z)
@@ -92,12 +102,11 @@ my_number_string(S) :- my_number(N)
       embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","goto", [1, 24.0, -23.5, 15.0, 0.0]).
       
 +!fightFire
+   :   current_position(CX, CY, CZ)
    <- -+status("fighting_Fire");
       .print("Fighting Fire");
       embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","fightFire",1);
-      .wait(1000);
-      embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","fightFire",0);
-      .wait(1000);
+      .wait(5000);
       !fightFire.
       
 +failure

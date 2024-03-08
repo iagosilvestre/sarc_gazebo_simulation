@@ -1,4 +1,244 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
+<record>
+  <date>2024-03-07T13:56:02.610266377Z</date>
+  <millis>1709819762610</millis>
+  <nanos>266377</nanos>
+  <sequence>3</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>116</thread>
+  <message>Started!</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.610265081Z</date>
+  <millis>1709819762610</millis>
+  <nanos>265081</nanos>
+  <sequence>0</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav2</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>117</thread>
+  <message>Started!</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.610265364Z</date>
+  <millis>1709819762610</millis>
+  <nanos>265364</nanos>
+  <sequence>1</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav4</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>119</thread>
+  <message>Started!</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.610265131Z</date>
+  <millis>1709819762610</millis>
+  <nanos>265131</nanos>
+  <sequence>2</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav3</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>118</thread>
+  <message>Started!</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.614429429Z</date>
+  <millis>1709819762614</millis>
+  <nanos>429429</nanos>
+  <sequence>5</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>116</thread>
+  <message>I believe I am at CX: 0.03935971107672167 , CY: 7.535429864358618 ,CZ: 5.977450346295349</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.614495409Z</date>
+  <millis>1709819762614</millis>
+  <nanos>495409</nanos>
+  <sequence>7</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav4</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>119</thread>
+  <message>I believe I am at CX: 0.026068143902113435 , CY: -7.479597740213013 ,CZ: 14.784114738983419</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.614429308Z</date>
+  <millis>1709819762614</millis>
+  <nanos>429308</nanos>
+  <sequence>4</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav2</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>117</thread>
+  <message>I believe I am at CX: 0.0438341157431674 , CY: 2.5190947214504966 ,CZ: 8.891864305874535</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:02.614429294Z</date>
+  <millis>1709819762614</millis>
+  <nanos>429294</nanos>
+  <sequence>6</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav3</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>118</thread>
+  <message>I believe I am at CX: 0.03434049488776 , CY: -2.4801952173737667 ,CZ: 11.819870952880894</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:05.617676328Z</date>
+  <millis>1709819765617</millis>
+  <nanos>676328</nanos>
+  <sequence>8</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>116</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:05.618279351Z</date>
+  <millis>1709819765618</millis>
+  <nanos>279351</nanos>
+  <sequence>9</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav2</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>117</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:05.619024879Z</date>
+  <millis>1709819765619</millis>
+  <nanos>24879</nanos>
+  <sequence>10</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav4</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>119</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:05.620038251Z</date>
+  <millis>1709819765620</millis>
+  <nanos>38251</nanos>
+  <sequence>11</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav3</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>118</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:10.659903183Z</date>
+  <millis>1709819770659</millis>
+  <nanos>903183</nanos>
+  <sequence>12</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav2</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>117</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:10.660256871Z</date>
+  <millis>1709819770660</millis>
+  <nanos>256871</nanos>
+  <sequence>14</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav3</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>118</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:10.660318830Z</date>
+  <millis>1709819770660</millis>
+  <nanos>318830</nanos>
+  <sequence>15</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav4</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>119</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:10.660131276Z</date>
+  <millis>1709819770660</millis>
+  <nanos>131276</nanos>
+  <sequence>13</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>116</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:15.663964828Z</date>
+  <millis>1709819775663</millis>
+  <nanos>964828</nanos>
+  <sequence>16</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav3</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>118</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:15.664048452Z</date>
+  <millis>1709819775664</millis>
+  <nanos>48452</nanos>
+  <sequence>17</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav2</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>117</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:15.664743141Z</date>
+  <millis>1709819775664</millis>
+  <nanos>743141</nanos>
+  <sequence>18</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav1</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>116</thread>
+  <message>Fighting Fire</message>
+</record>
+<record>
+  <date>2024-03-07T13:56:15.665907499Z</date>
+  <millis>1709819775665</millis>
+  <nanos>907499</nanos>
+  <sequence>19</sequence>
+  <logger>jason.asSemantics.TransitionSystem.uav4</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>119</thread>
+  <message>Fighting Fire</message>
+</record>
 </log>

@@ -5,7 +5,7 @@ import rospkg
 import random
 from gazebo_msgs.srv import SpawnModel, DeleteModel
 from geometry_msgs.msg import Pose
-from std_msgs.msg import Int32
+from std_msgs.msg import Int32,Float64
 
 class ModelSpawner:
     def __init__(self):
@@ -28,11 +28,13 @@ class ModelSpawner:
             model_name = "tree_red_"+ str(self.count)  # Change this to the name of the model you want to delete
             rospy.loginfo("Deleting model: %s", model_name)
             self.count=self.count+1
-            try:
-                response = self.delete_model(model_name)
-                rospy.loginfo("Model deletion response: %s", response.status_message)
-            except rospy.ServiceException as e:
-                rospy.logerr("Service call failed: %s", e)
+            probability = random.random()
+            if probability <= 0.3:
+                try:
+                    response = self.delete_model(model_name)
+                    rospy.loginfo("Model deletion response: %s", response.status_message)
+                except rospy.ServiceException as e:
+                    rospy.logerr("Service call failed: %s", e)
                 
     def spawn_model_random_pose(self):
         model_name = "tree" 
