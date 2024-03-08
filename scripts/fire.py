@@ -22,6 +22,7 @@ class ModelSpawner:
         rospack = rospkg.RosPack()
         self.sdf_path = rospack.get_path('mrs_gazebo_common_resources') + "/models/tree_simple/model.sdf"
         self.count=0
+        self.createForest()
 
     def callback(self, msg):
         if msg.data != 0:
