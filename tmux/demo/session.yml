@@ -20,10 +20,10 @@ windows:
       layout: tiled
       panes:
         - waitForRos; roslaunch mrs_uav_gazebo_simulation simulation.launch world_name:=grass_plane gui:=true
-        - waitForGazebo; rosservice call /mrs_drone_spawner/spawn "1 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 7.5 0 0"
-        - waitForGazebo; rosservice call /mrs_drone_spawner/spawn "2 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 2.5 0 0"
-        - waitForGazebo; rosservice call /mrs_drone_spawner/spawn "3 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 -2.5 0 0"
-        - waitForGazebo; rosservice call /mrs_drone_spawner/spawn "4 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 -7.5 0 0"
+        #- waitForGazebo; rosservice call /mrs_drone_spawner/spawn "1 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 7.5 0 0"
+        #- waitForGazebo; rosservice call /mrs_drone_spawner/spawn "2 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 2.5 0 0"
+        #- waitForGazebo; rosservice call /mrs_drone_spawner/spawn "3 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 -2.5 0 0"
+        #- waitForGazebo; rosservice call /mrs_drone_spawner/spawn "4 --$UAV_TYPE --enable_bluefox_camera --enable-ground-truth --pos 0 -7.5 0 0"
         #- waitForControl; gz camera -c gzclient_camera -f $UAV_NAME; history -s gz camera -c gzclient_camera -f $UAV_NAME
   - status:
       layout: tiled

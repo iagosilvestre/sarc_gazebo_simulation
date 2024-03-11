@@ -20,9 +20,9 @@ class ModelSpawner:
         self.subscriber = rospy.Subscriber('/fightFire', Int32, self.callback)
         # Get the path to the SDF file
         rospack = rospkg.RosPack()
-        self.sdf_path = rospack.get_path('mrs_gazebo_common_resources') + "/models/tree_simple/model.sdf"
+        self.sdf_green = rospack.get_path('sarc_gazebo_simulation') + "/models/tree_green/model.sdf"
         self.count=0
-        self.createForest()
+        #self.createForest()
 
     def callback(self, msg):
         if msg.data != 0:
@@ -52,7 +52,7 @@ class ModelSpawner:
         pose.orientation.z = 0.0
 
         # Spawn model
-        with open(self.sdf_path, "r") as f:
+        with open(self.sdf_green, "r") as f:
             sdf = f.read()
         try:
             self.spawn_model(model_name, sdf, "robot_description", pose, "world")
