@@ -62,6 +62,8 @@ class ModelSpawner:
 
         # Schedule deletion after some time
         rospy.Timer(rospy.Duration(10), lambda event: self.delete_model(model_name))
+    
+    
 
 if __name__ == '__main__':
     try:

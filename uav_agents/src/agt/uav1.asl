@@ -1,7 +1,7 @@
 //////////////// Initial beliefs
 status("None").
-world_area(250, 250, 0, 0).
-num_of_uavs(1).
+world_area(100, 100, 0, 0).
+num_of_uavs(4).
 camera_range(5).
 std_altitude(20.0).
 std_heading(0.0).
@@ -13,6 +13,8 @@ temp_limit(70.5).//30.0
 wind_limit(72.5).//12.1
 diff(1).
 fireLoc(24.5, -23.5).
+landing_x(0.0).
+landing_y(0.0).
 
 //pose(pose(position(x(CX),y(CY),z(CZ)),orientation(x(OX),y((OY)),z((OZ)),w((OW))))
 //////////////// Rules
@@ -69,14 +71,14 @@ my_number_string(S) :- my_number(N)
        //embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1", "land",[]);
       //embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","drop",[0.0, 0.0, 0.0]);
       .print("Started!");
-      //!calculate_trajectory;//trajectory//!calculate_area;//!calculate_waypoints(1, []);// pode ser unido com os outros
+      !calculate_trajectory;//trajectory//!calculate_area;//!calculate_waypoints(1, []);// pode ser unido com os outros
       //!hover.
-      //!follow_trajectory(0).
-      !where;
+      !follow_trajectory(0).
+      //!where;
       //!goto_position(20.0,-28.0);
       //!gotoFireLoc;
-      .wait(3000);
-      !fightFire.
+      //.wait(3000);
+      //!fightFire.
 
       //embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("roscore1","arm",[N,1]);
       //.wait(2000);

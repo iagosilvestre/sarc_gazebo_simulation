@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
+import rospkg
 import random
 import math
 import os
@@ -30,7 +31,7 @@ def get_package_path(package_name):
 
 def main():
     rospy.init_node('spawn_forest')
-
+    rospack = rospkg.RosPack()
     # Define forest parameters
     forest_size = 10  # Size of the forest (number of trees per side)
     tree_spacing = 2  # Spacing between trees
@@ -43,7 +44,7 @@ def main():
 
     # Define spawn offset based on random distance from the center
     offset = distance_from_center - (forest_size - 1) * tree_spacing / 2.0
-
+    sdf_green = rospack.get_path('sarc_gazebo_simulation') + "/models/tree_green/model.sdf"
     # Counter for naming trees
     tree_count = 1
 
@@ -58,11 +59,13 @@ def main():
                 distance = math.sqrt(x**2 + y**2)
                 # Spawn the tree with the determined color
                 if distance < tree_spacing:
+                    print("x: "+ str(x) + ", y: "+ str(y))
                     model_name = '{}_{}'.format(color, tree_count)  # Unique name for each tree
-                    model_path = os.path.join(get_package_path('sarc_gazebo_simulation'), 'models', color, 'model.sdf')
-                    pose = Pose(position=Point(20, 20, 0), orientation=Quaternion(0, 0, 0, 1))
+                    #model_path = os.path.join(get_package_path('sarc_gazebo_simulation'), 'models', color, 'model.sdf')
+                    model_path = rospack.get_path('sarc_gazebo_simulation') + "/models/"+color +"/model.sdf"
+                    pose = Pose(position=Point(x, y, 0), orientation=Quaternion(0, 0, 0, 1))
                     spawn_tree(model_name, pose, model_path)
-                    rospy.sleep(0.1)  # Add a small delay between spawning trees
+                    rospy.sleep(0.25)  # Add a small delay between spawning trees
                     tree_count += 1  # Increment tree count
 
     rospy.spin()
